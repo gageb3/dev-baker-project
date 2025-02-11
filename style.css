@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?                            family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#computerLab {
+    height: 600px;
+    width: 800px;
+    background-color: #CCC;
+    margin: auto;
+    position: relative;
+    top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    position: relative;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.desk {
+    width: 90%;
+    background-color: brown;
+    margin: 20px 0;
+    padding: 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+}
+
+.pc {
+    width: 80px;
+    height: 50px;
+    background-color: gray;
+    color: white;
+    text-align: center;
+    line-height: 50px;
+    margin: 5px;
+}
+
+.seat-container {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin-top: 20px;
+    position: relative;
+}
+
+.seat {
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    text-align: center;
+    color: black;
+    line-height: 50px;
+    font-weight: bold;
+    margin: 2px;
+    position: relative;
+    top: -30px;
+    left: -2%;
+}
+
+#door {
+    height: 100px;
+    width: 60px;
+    background-color: brown;
+    position: absolute;
+    bottom: 10px;
+    left: 10%;
+    text-align: center;
+    color: white;
+    line-height: 100px;
+}
