@@ -12,7 +12,7 @@ body {
     height: 100vh;
 }
 
-#computerLab {
+.computerLab {
     height: 600px;
     width: 800px;
     background-color: #CCC;
@@ -74,7 +74,7 @@ h1 {
     left: -2%;
 }
 
-#door {
+.door {
     height: 100px;
     width: 60px;
     background-color: brown;
